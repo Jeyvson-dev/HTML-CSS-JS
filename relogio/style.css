@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+
+#corpo{
+    background-color: #cbba8e;
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+#img{
+
+    border-radius: 50%;
+    width: 250;
+    height: 250;
+    overflow: hidden;
+}
+
+#conteiner{
+
+border-radius: 4%;
+   background-color: azure;
+   text-align: center;
+   margin-left: 180;
+   margin-right: 180;
+   padding-bottom:  90;
+
+}
+#foto{
+    margin-top: 90;
+
+}

@@ -1,0 +1,66 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculando valores</title>
+</head>
+
+<body>
+    <h1>Calculando valores</h1>
+
+
+    <div>
+        <div id="soma">
+            <h2>Soma</h2>
+
+            <input type="number" name="soma1" id="soma1">
+
+            <strong>+</strong>
+
+            <input type="number" name="soma2" id="soma2">
+
+            <input type="button" value="somar" onclick="somar()">
+        </div>
+
+
+        <div id="subtracao">
+            <h2>Subtração</h2>
+            <input type="number" name="subtrair1" id="subtrair1">
+            <strong>-</strong>
+            <input type="number" name="subtrair2" id="subtrair2">
+            <input type="button" value="subtrair" onclick="subtrair()">
+        </div>
+    </div>
+
+    <div>
+        <div id="multiplicacao">
+            <h2>Multiplicação</h2>
+
+            <input type="number" name="multiplicar1" id="multiplicar1">
+
+            <strong>x</strong>
+            <input type="number" name="multiplicar2" id="multiplicar2">
+            <input type="button" value="multiplicar" onclick="multiplicar()">
+        </div>
+
+        <div id="divisao">
+            <h2>Divisão</h2>
+            <input type="number" name="divisao1" id="divisao1">
+            <strong>/</strong>
+            <input type="number" name="divisao2" id="divisao2">
+            <input type="button" value="divisao" onclick="divisao()">
+        </div>
+    </div>
+
+
+    <div id="res">Resultado:</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
