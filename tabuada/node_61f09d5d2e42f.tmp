@@ -1,0 +1,13 @@
+var numero = 0
+var  valor = 0
+
+
+
+while (numero<=10){
+
+    console.log(`${valor}`)
+    valor*=numero
+
+
+
+}
